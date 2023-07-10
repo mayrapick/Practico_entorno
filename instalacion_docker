@@ -1,0 +1,9 @@
+Como instalamos docker??
+1)Ya tenemos nuestro archivo Dockerfile--
+2)ejecutamos en el emulador de terminal el siguiente comando:
+ sudo docker build -t nombre_imagen .   ---> "nombre_imagen" podemos ponerle el nombre 
+                                              que deseemos
+3)ejecutamos el contenedor en base a la imagen generada:
+sudo docker run --name mi_contenedor nombre_imagen
+
+

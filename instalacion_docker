@@ -6,4 +6,4 @@ Como instalamos docker??
 3)ejecutamos el contenedor en base a la imagen generada:
 sudo docker run --name mi_contenedor nombre_imagen
 
-
+sudo docker run -it -v /home/home/practico_entorno/imagenes:/imagenes imagenes
